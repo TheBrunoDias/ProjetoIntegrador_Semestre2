@@ -8,6 +8,24 @@ Projeto Integrador do segundo semestre de Engenharia de Software e Análise  e D
 
 [Protótipo - Figma](https://www.figma.com/file/z6ryQc6chyP5KXN6gfnYc4/UniAmericon)
 
-## O que é?
+[Repositório do jogo](https://github.com/TheBrunoDias/Uniamericon)
 
-## Como será feito? 
+[Clique aqui](https://simmer.io/@BrunoDias/uniamericon) para ver o jogo no Simmer.
+
+## O que é?
+Telas Funcionais feita em [React](https://pt-br.reactjs.org/).
+
+Inicialmente será feita apenas a versão Web.
+
+Posteriormente será feita a adaptação para Mobile.
+
+## Telas
+**Landing Page**
+
+**About**
+
+**Login/Sign in**
+
+**About Us**
+
+**Game Page**
