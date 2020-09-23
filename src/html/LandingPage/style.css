@@ -127,19 +127,14 @@ body{
 }
 
 .section-text{
-    
     width: 80%;
     font-size: 1.5vw;
-
 }
 
 
 .section-figure {
-
     padding: 3%;
-
     display: flex;
-    
     align-items: center;
     flex-direction: column;
     font-weight: bold;
@@ -149,7 +144,6 @@ body{
     padding-bottom: 10%;
 }
 .section-figure img{
-
     width: 10vw;
 }
 
