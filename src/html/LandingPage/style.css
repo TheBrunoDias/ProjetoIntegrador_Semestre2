@@ -135,11 +135,8 @@ body{
 
 
 .section-figure {
-
     padding: 3%;
-
     display: flex;
-    
     align-items: center;
     flex-direction: column;
     font-weight: bold;
@@ -149,7 +146,6 @@ body{
     padding-bottom: 10%;
 }
 .section-figure img{
-
     width: 10vw;
 }
 .section-2{
@@ -165,6 +161,7 @@ body{
 
 .creating, .counting, .making{
     padding: 0 2%;
+<<<<<<< HEAD
 }
 
 .section-3 {
@@ -204,3 +201,6 @@ body{
 
 
 
+=======
+}
+>>>>>>> f487a2e95d2c89d91a2c2f91ce436b2200f1ebd6
