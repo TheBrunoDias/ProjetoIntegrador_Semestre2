@@ -103,6 +103,7 @@ body{
 /*Sections Start*/
 
 .sections{
+    position: relative;
     background-color: #ffffff;
     margin: -6% 10%;
     border-radius: 45px;
@@ -110,6 +111,7 @@ body{
     text-align: justify;
     font-size: 1.5vw;
     box-shadow: 1px 1px 5px black;
+    padding-bottom: 0;
 }
 
 .section-title{
@@ -146,13 +148,59 @@ body{
 .section-figure img{
     width: 10vw;
 }
+.section-2{
+    padding-bottom: 6%;
+}
 
 .section-2-block{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10%;
 }
 
 .creating, .counting, .making{
     padding: 0 2%;
+<<<<<<< HEAD
 }
+
+.section-3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 p{
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+.footer{
+    background-color: #00000062;
+    margin-top: 5%;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer .logo{
+    margin: 0;
+}
+
+.footer .menu{
+    list-style: none;
+}
+
+.footer .menu  li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+=======
+}
+>>>>>>> f487a2e95d2c89d91a2c2f91ce436b2200f1ebd6
