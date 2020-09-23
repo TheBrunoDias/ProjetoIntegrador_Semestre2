@@ -24,28 +24,28 @@ Um jogo multissensorial, que tem como objetivo ajudar as crianças atípicas den
 ####
 Tela Inicial do projeto, onde é explicado o que é nosso projeto e como ele funciona.
 ####
-<img src="./src/Assets/landing.jpg" width="300" length="400">
+<img src="./src/Assets/pagesImages/landing.jpg" width="300" length="400">
 
 **About**
 ####
 Tela onde explicamos sobre o que é o Transtorno do Espectro Autista.
 ####
-<img src="./src/Assets/tea.jpg" width="400" length="300">
+<img src="./src/Assets/pagesImages/tea.jpg" width="400" length="300">
 
 **Login/Sign in**
 ####
 Tela pra fazer login com Facebook, Google ou Email.
 ####
-<img src="./src/Assets/Login.jpg" width="400" length="300">
+<img src="./src/Assets/pagesImages/Login.jpg" width="400" length="300">
 
 **About Us**
 ####
 Tela onde falamos sobre a equipe do projeto.
 ####
-<img src="./src/Assets/us.jpg" width="400" length="300">
+<img src="./src/Assets/pagesImages/us.jpg" width="400" length="300">
 
 **Game Page**
 ####
 Tela do Jogo onde tem a tag Iframe com o jogo que está no Simmer.
 ####
-<img src="./src/Assets/game.jpg" width="400" length="300">
+<img src="./src/Assets/pagesImages/game.jpg" width="400" length="300">
