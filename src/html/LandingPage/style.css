@@ -162,8 +162,9 @@ body{
 
 .creating, .counting, .making{
     padding: 0 2%;
-
 }
+
+
 
 .section-3 {
     text-align: center;
@@ -198,7 +199,4 @@ body{
 .footer .menu  li a{
     color: white;
     text-decoration: none;
-}
-.footer .menu  li {
-    cursor: pointer;
 }
