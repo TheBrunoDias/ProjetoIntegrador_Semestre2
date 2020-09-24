@@ -73,6 +73,7 @@
 }
 
 .section-2{
+    padding: 200px 0 0 0;
     justify-content: center;
     float: right;
     width: 40%;
@@ -82,4 +83,36 @@
     padding: 5% 0 0 0;
     width: 30%;
     min-height: 300px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 100%;
+}
+
+.card h3{
+    color: #000000;
+}
+
+.footer{
+    background-color: #00000062;
+    margin-top: 5%;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer .logo{
+    margin: 0;
+}
+
+.footer .menu{
+    list-style: none;
+}
+
+.footer .menu  li a{
+    color: white;
+    text-decoration: none;
 }
