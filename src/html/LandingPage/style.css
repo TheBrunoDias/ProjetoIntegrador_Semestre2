@@ -182,11 +182,12 @@ body{
 .footer{
     background-color: var(--color-footer);
     margin-top: 5%;
-    padding: 6%;
+    padding: 6% 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
+    height: 25vh;
 }
 
 .footer .logo{

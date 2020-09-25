@@ -19,14 +19,14 @@ window.addEventListener('scroll', () => {
   animationAbove.forEach((e, index) => {
     let speed = e.getAttribute('speed');
     e.style.transition = `${speed} cubic-bezier(0.31, 0.49, 0.51, 1.21)`;
-    e.style.transform = 'translateY(-200%) scale(0,0)';
+    e.style.transform = 'translateY(-100%) scale(0,0)';
     e.style.visibility= 'hidden';
     if(e.getBoundingClientRect().top < window.innerHeight){
       e.style.transform = 'translateY(0) scale(1,1)';
       e.style.visibility= 'visible';
     }
     if(e.getBoundingClientRect().top < -200){
-      e.style.transform = 'translateY(-200%) scale(0,0)';
+      e.style.transform = 'translateY(-100%) scale(0,0)';
       e.style.visibility= 'hidden';
     }
   });
@@ -35,14 +35,14 @@ window.addEventListener('scroll', () => {
   animationBelow.forEach((e, index) => {
     let speed = e.getAttribute('speed');
     e.style.transition = `${speed} cubic-bezier(0.31, 0.49, 0.51, 1.21)`;
-    e.style.transform = 'translateY(200%) scale(0,0)';
+    e.style.transform = 'translateY(100%) scale(0,0)';
     e.style.visibility= 'hidden';
     if(e.getBoundingClientRect().top < window.innerHeight){
       e.style.transform = 'translateY(0) scale(1,1)';
       e.style.visibility= 'visible';
     }
     if(e.getBoundingClientRect().top < -200){
-      e.style.transform = 'translateY(200%) scale(0,0)';
+      e.style.transform = 'translateY(100%) scale(0,0)';
       e.style.visibility= 'hidden';
     }
   });
@@ -51,14 +51,14 @@ window.addEventListener('scroll', () => {
   animationLeft.forEach((e, index) => {
     let speed = e.getAttribute('speed');
     e.style.transition = `${speed} cubic-bezier(0.31, 0.49, 0.51, 1.21)`;
-    e.style.transform = 'translateX(-200%) scale(0,0)';
+    e.style.transform = 'translateX(-100%) scale(0,0)';
     e.style.visibility= 'hidden';
     if(e.getBoundingClientRect().top < window.innerHeight){
       e.style.transform = 'translateX(0) scale(1,1)';
       e.style.visibility= 'visible';
     }
     if(e.getBoundingClientRect().top < -200){
-      e.style.transform = 'translateX(-200%) scale(0,0)';
+      e.style.transform = 'translateX(-100%) scale(0,0)';
       e.style.visibility= 'hidden';
     }
   });
@@ -67,14 +67,14 @@ window.addEventListener('scroll', () => {
   animationRight.forEach((e, index) => {
     let speed = e.getAttribute('speed');
     e.style.transition = `${speed} cubic-bezier(0.31, 0.49, 0.51, 1.21)`;
-    e.style.transform = 'translateX(200%) scale(0,0)';
+    e.style.transform = 'translateX(100%) scale(0,0)';
     e.style.visibility= 'hidden';
     if(e.getBoundingClientRect().top < window.innerHeight){
       e.style.transform = 'translateX(0) scale(1,1)';
       e.style.visibility= 'visible';
     }
     if(e.getBoundingClientRect().top < -200){
-      e.style.transform = 'translateX(200%) scale(0,0)';
+      e.style.transform = 'translateX(100%) scale(0,0)';
       e.style.visibility= 'hidden';
     }
   });
