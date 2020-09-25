@@ -7,6 +7,7 @@
 
 body{
     background-color: var(--color-background);
+    overflow: none;
 }
 
 :root{
@@ -95,7 +96,7 @@ body{
 
 .playNow:hover{
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.2) !important;
     background-color: var(--blue-darker);
 }
 
@@ -194,6 +195,9 @@ body{
 
 .footer .menu{
     list-style: none;
+}
+.footer .menu  li {
+    cursor: pointer;
 }
 
 .footer .menu  li a{
