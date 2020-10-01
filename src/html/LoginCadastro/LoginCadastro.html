@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>  
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="LoginCadastro.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uniamericon - Jogo</title>
+  <link rel="stylesheet" href="./LoginCadastro.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
 
-  <body>
-    
-    <header class="header">
-      <nav class="navbar">
-        <a href="../LandingPage/index.html">Início</a>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="/src/html/LandingPage/index.html">Início</a>
       <a href="#">Instruções</a>
-      <a href="../SobreAEquipe/sobre_a_equipe.html">Sobre Nós</a>
-      <a href="../SobreOTea/sobre_o_tea.html">Sobre o TEA</a>
-      </nav>
-    </header>
+      <a href="/src/html/SobreAEquipe/sobre_a_equipe.html">Sobre Nós</a>
+      <a href="/src/html/SobreOTea/sobre_o_tea.html">Sobre o TEA</a>
+    </nav>
+  </header>
+
+  <div class="login">
+
+    <img class="logo" src="../../Assets/LoginCadastro/Logo.png">
 
     <div class="container">
-        <img src="../../Assets/LoginCadastro/Logo.png" width="30%">
-    </div>
-    
-    <div class="container">
-      <img src="../../Assets/LoginCadastro/search.png" width="32px">
+      <img src="../../Assets/LoginCadastro/search.png">
       <a class="button" href="#">Login com Google</a>
     </div>
     <div class="container">
-      <img src="../../Assets/LoginCadastro/search.png" width="32px">
-      <a class="button" href="#">Login com Google</a>
+      <img src="../../Assets/LoginCadastro/facebook.png">
+      <a class="button" href="#">Login com facebook</a>
+    </div>
+
+    <p>ou</p>
+
+    <div class="container">
+      <img src="../../Assets/LoginCadastro/user.png">
+      <a class="button" href="#">Nome Completo</a>
     </div>
     <div class="container">
-      <img src="../../Assets/LoginCadastro/search.png" width="32px">
-      <a class="button" href="#">Login com Google</a>
+      <img src="../../Assets/LoginCadastro/email.png">
+      <a class="button" href="#">Seu e-mail</a>
     </div>
-  </body>
-</html>
+    <div class="container">
+      <img src="../../Assets/LoginCadastro/senha.png">
+      <a class="button" href="#">Sua Senha</a>
+    </div>
+
+    <button class="cadastro">
+      Cadastrar
+    </button>
+
+  </div>
+
+  <footer class="footer">
+    <ul class="menu">
+        <li onclick="backtoTop()">Voltar para o topo</li>
+        <li><a href="#"></a>Início</a></li>
+        <li><a href="#">Instruções</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Sobre o TEA</a></li>
+    </ul>
+
+    <img class="logo_1" src="../../Assets/LoginCadastro/Logo.png" alt="Logo Uniamericon">
+</footer>
+
+</body>
+
+</html> 
