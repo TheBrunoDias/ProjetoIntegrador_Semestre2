@@ -14,8 +14,6 @@
 
 /* Header Start*/
 .header{
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 2% 5% ;
     color: var(--color-text-header);
     display: flex;
@@ -48,19 +46,25 @@
     transform: scale(1.2);
     border-top:  2px solid var(--color-nav-transtion);
 }
+/*NavBar End*/
+
 
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
     padding: 50px;
     text-align: justify;
 }
 
-.container h3{
+h3{
     color: #9370DB;
     padding: 7% 0 0 0;
+}
+.container .card img{
+    width: 100%;
 }
 
 .section{
@@ -68,22 +72,23 @@
     width: 60%;
 }
 
+
 .section .container{
     display: flex;
 }
 
 .section-2{
-    padding: 200px 0 0 0;
     justify-content: center;
-    float: right;
     width: 40%;
 }
 
 .card{
     padding: 5% 0 0 0;
     width: 30%;
-    min-height: 300px;
     text-align: center;
+}
+.members{
+    display: none;
 }
 
 .card img{
@@ -115,4 +120,57 @@
 .footer .menu  li a{
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 800px){
+    .header .navbar a{
+        font-size: 14px;
+    }
+    .section{
+        text-align: justify;
+        width: 100vw;
+        padding: 0;
+    }
+
+    .section_text{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-2{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-card{
+        background-color:#9370DB;
+        width: 100vw;
+    }
+
+
+    .card{
+        margin-top: 5vh;
+        padding: 3%;
+        width: 50vw;
+    }
+
+    .members{
+        margin-top: 5vh;
+        display: block;
+    }
+
+    .section{
+        width: 80vw;
+    }
+
+    .footer .logo{
+        width: 50%;
+    }
 }

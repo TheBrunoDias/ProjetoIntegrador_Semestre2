@@ -14,23 +14,24 @@
 
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="header">
         <nav class="navbar">
-            <a href="/src/html/LandingPage/index.html">Início</a>
-            <a href="#">Instruções</a>
-            <a href="#">Sobre Nós</a>
-            <a href="/src/html/SobreOTea/sobre_o_tea.html">Sobre o TEA</a>
+            <a href="#">Início</a>
+            <a href="../LoginCadastro/LoginCadastro.html">Instruções</a>
+            <a href="../SobreAEquipe/sobre_a_equipe.html">Sobre Nós</a>
+            <a href="../SobreOTea/sobre_o_tea.html">Sobre o TEA</a>
         </nav>
 
-        <img class="logo" src="../../Assets/landingpage/Logo.png" alt="Logo Uniamericon">
+        <img class="animation-above logo" speed="1s" src="../../Assets/landingpage/Logo.png" alt="Logo Uniamericon">
 
-        <h1 class="welcome">Bem Vindo!</h1>
+        <h1 class="animation-origin welcome" speed="1s">Bem Vindo!</h1>
 
-        <p class="header-text">Esse projeto foi desenvolvido totalmente por acadêmicos de Engenharia de Software e
+        <p class="header-text animation-origin" speed="1s">Esse projeto foi desenvolvido totalmente por acadêmicos de
+            Engenharia de Software e
             Análise e Desenvolvimento de Sistemas em parceria com acadêmicos de Pedagogia. Espero que você goste!</p>
 
 
-        <a class="playNow" href="#">Jogue Agora</a>
+        <a class="playNow" href="../Jogo/jogo.html">Jogue Agora</a>
 
     </header>
     <!-- Header End-->
@@ -52,14 +53,14 @@
                     turma seja minimamente igualitário, não havendo apenas um método de ensino para alunos atípicos e
                     outro para alunos típicos, assim facilitando a vida da professora e dos alunos.
                 </p>
-                <figure class="section-figure">
+                <figure class="section-figure animation-origin" speed="1s">
                     <img src="../../Assets/landingpage/why.png" alt="Why Icon">
                     <figcaption>Por que?</figcaption>
                 </figure>
             </div>
 
             <div class="how section-icon">
-                <figure class="section-figure">
+                <figure class="section-figure animation-origin" speed="1s">
                     <img src="../../Assets/landingpage/how.png" alt="How Icon">
                     <figcaption>Como?</figcaption>
                 </figure>
@@ -78,7 +79,7 @@
                     pois a sequência de formação de números respeita agrupamentos de dois em dois, além de trabalhar
                     dobro, triplo, adição e subtração.
                 </p>
-                <figure class="section-figure">
+                <figure class="section-figure animation-origin" speed="1s">
                     <img src="../../Assets/landingpage/what.png" alt="What Icon">
                     <figcaption>O que?</figcaption>
                 </figure>
@@ -89,34 +90,40 @@
             <h1 class="section-title">Como Jogar</h1>
             <div class="section-2-block">
                 <div class="counting">
-                    <figure class="section-figure" >
+                    <figure class="section-figure animation-origin" speed="1s">
                         <img src="../../Assets/landingpage/couting.png" alt="couting Icon">
                         <figcaption> Contando</figcaption>
                     </figure>
-                    <p>Cada peça tem seu valor de acordo com a quantidade de blocos, assim, para realizar uma soma, basta contar a quantidade de quadradinhos, simples não é mesmo?</p>
+                    <p>Cada peça tem seu valor de acordo com a quantidade de blocos,
+                        assim, para realizar uma soma, basta contar a quantidade de quadradinhos, simples não é mesmo?
+                    </p>
                 </div>
                 <div class="making">
-                    <figure class="section-figure">
+                    <figure class="section-figure animation-origin" speed="1s">
                         <img src="../../Assets/landingpage/making.png" alt="making icon">
                         <figcaption>Montando</figcaption>
                     </figure>
-                    <p>As peças possuem formatos que possibilita ao aluno juntar elas, auxiliando na contagem quando possui mais de uma peça na tela</p>   
+                    <p>As peças possuem formatos que possibilita ao aluno juntar
+                        elas, auxiliando na contagem quando possui mais de uma peça na tela</p>
                 </div>
 
                 <div class="creating">
-                    <figure class="section-figure">
+                    <figure class="section-figure animation-origin" speed="1s">
                         <img src="../../Assets/landingpage/creating.png" alt="creating icon">
                         <figcaption>Criando</figcaption>
                     </figure>
-                    <p>Cada peça possui forma e cor diferentes, para estimular a criança a usar a imaginação tentado criar alguma imagem ou objeto</p>
+                    <p>Cada peça possui forma e cor diferentes, para estimular a
+                        criança a usar a imaginação tentado criar alguma imagem ou objeto</p>
                 </div>
             </div>
         </section>
 
         <section class="section-3">
             <h1 class="section-title">Muito Legal, né?</h1>
-            <p>Como foi dito, esse é um projeto sem fins lucrativos totalmente feito por estudantes que visam tornar o mundo um lugar melhor para todas as pessoas. Para começar a jogar é só se inscrever no botão que está ai embaixo. Divirta-se! :)</p>
-            <a class="playNow" href="#">Jogue Agora</a>
+            <p>Como foi dito, esse é um projeto sem fins lucrativos totalmente feito
+                por estudantes que visam tornar o mundo um lugar melhor para todas as pessoas. Para começar a jogar é só
+                se inscrever no botão que está ai embaixo. Divirta-se! :)</p>
+            <a class="playNow animation-origin" speed="1s" href="../Jogo/jogo.html">Jogue Agora</a>
         </section>
 
     </section>
@@ -125,11 +132,11 @@
     <!--Footer Start-->
     <footer class="footer">
         <ul class="menu">
-            <li onclick="backtoTop()">Voltar para o topo</li>
+            <li onclick="SlideTo('header')">Voltar para o topo</li>
             <li><a href="#"></a>Início</a></li>
-            <li><a href="#">Instruções</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Sobre o TEA</a></li>
+            <li><a href="../LoginCadastro/LoginCadastro.html">Instruções</a></li>
+            <li><a href="../SobreAEquipe/sobre_a_equipe.html">Sobre Nós</a></li>
+            <li><a href="../SobreOTea/sobre_o_tea.html">Sobre o TEA</a></li>
         </ul>
 
         <img class="logo" src="../../Assets/landingpage/Logo.png" alt="Logo Uniamericon">
