@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-item{
+    display: inline-block;
+    padding: 0 2vw 0 0;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-feira{
+    width: clamp(7rem, 11vw, 15rem);
+    padding: 0 0 0 2vw;
+}
