@@ -1,11 +1,20 @@
 .container{
     margin: 0;
     padding: 2.5vw;
+    font-family: arial;
 }
 
-.container img{
-    height: 15vw;
-    border-radius: 60%;
+.txt{
+    padding: 0 40vw 0 2vw;
+}
+
+.txt h1{
+    padding: 1vw 0 1vw 0;
+}
+
+.txt p{
+    padding: 1vw 0 0 0;
+    color: #cc66ff;
 }
 
 .team{
@@ -16,4 +25,14 @@
 
 .team_icon{
     padding: 2vw 3vw 0 0;
+}
+
+.team_icon img{
+    height: 15vw;
+    border-radius: 60%;
+}
+
+.team_drawn{
+    z-index: -1;
+    float: right;
 }
