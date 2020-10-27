@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00418D;
+}
+
+.footer .footer-list{
+    list-style: none;
+    color: white;
+}
+
+.footer .footer-list li{
+    padding: 5px 0px;
+    cursor: pointer;
+    
+}
+.footer .footer-list li:hover{
+    border-bottom: 1px solid white;
+}
+
+.footer .footer-list .footer-link {
+    color: white;
+    text-decoration: none;
+}

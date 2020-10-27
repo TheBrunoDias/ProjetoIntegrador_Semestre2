@@ -1,26 +1,22 @@
+
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: clamp(1rem, 5vw, 1.5rem);
+    margin: 5px;
+    width: 60vw;
 }
 
-.nav-container{
+.navbar .nav-container .nav-menu{
     display: flex;
+    list-style: none;
+    justify-content: space-around;
     align-items: center;
-    
-}
-.nav-item{
-    display: inline-block;
-    padding: 0 2vw 0 0;
 }
 
 .nav-links{
+    font-size: 22px;
     text-decoration: none;
     color: black;
 }
 
-.logo-feira{
-    width: clamp(7rem, 11vw, 15rem);
-    padding: 0 0 0 2vw;
+.nav-links:hover{
+    border-top: 1px solid black;
 }
