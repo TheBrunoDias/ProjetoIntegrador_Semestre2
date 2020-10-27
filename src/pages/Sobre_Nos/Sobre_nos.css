@@ -1,0 +1,18 @@
+.container{
+    margin: 0;
+    padding: 2.5vw;
+}
+
+.container img{
+    height: 15vw;
+    border-radius: 60%;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+}
+
+.team_icon{
+    padding: 2vw 3vw 0 0;
+}
