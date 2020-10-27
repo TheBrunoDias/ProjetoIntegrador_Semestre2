@@ -4,6 +4,7 @@ import './Sobre_nos.css';
 import Bruno from '../../Assets/SobreEquipe/bruno.jpg';
 import Marcelo from '../../Assets/SobreEquipe/marcelo.jpg';
 import Mariana from '../../Assets/SobreEquipe/mariana.jpg';
+import Team from '../../Assets/SobreEquipe/team.png';
 
 export default function Sobre_nos() {
   return(
@@ -28,7 +29,10 @@ export default function Sobre_nos() {
             <img src={Marcelo} />
             <p>Marcelo Fortes</p>
           </div>
+      </div>
 
+      <div className='team_draw'>
+        <img src={Team} />
       </div>
 
     </div>
