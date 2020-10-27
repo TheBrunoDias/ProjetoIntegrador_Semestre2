@@ -19,12 +19,12 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/Sobre-nos' className='nav-links'>
+                    <Link to='/Sobre_nos' className='nav-links'>
                         Sobre Nós
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/Sobre-tea' className='nav-links'>
+                    <Link to='/Sobre_tea' className='nav-links'>
                         Sobre o TEA
                     </Link>
                 </li>

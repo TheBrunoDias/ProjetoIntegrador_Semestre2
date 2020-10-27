@@ -2,5 +2,12 @@ import React from 'react';
 import './Sobre_nos.css';
 
 export default function Sobre_nos() {
-  return <h1 className='Sobre_nos'>Sobre_nos</h1>;
+  return(
+    <>
+    <div className='team'>
+      <h1>Sobre a equipe</h1>
+    </div>
+
+    </>
+  ); 
 }
