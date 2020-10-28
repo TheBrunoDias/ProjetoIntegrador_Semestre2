@@ -1,0 +1,102 @@
+.teste{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    padding: 1vw 0 2vw 0;
+    text-align: center;
+   display: flex;
+background-image: url(../../Assets/img/landingpage/header-background.png);
+background-size: 100%;
+height: 40vw;
+}
+.container{
+    text-align: center;
+    background-color:#00418d;
+   display: flex;
+
+}
+.container-branco{
+    position: relative;
+    background-color: #ffffff;
+    margin: -6% 10% 0 10% ;
+    border-radius: 45px;
+    box-shadow: 1px 1px 5px black;
+    padding-bottom: 0;
+}
+
+.bem_vindo{
+    padding: 0 10vw;
+}
+
+.bem_vindo h1{
+    font-size: 6vw;
+    padding:  2vw 0vw;
+}
+
+.bem_vindo h2{
+    font-size: 1.5vw;
+    padding:  0 0 2vw;
+}
+
+.sobre{
+    padding: 0 10vw;
+}
+.sobre h1{
+    font-size: 4vw;
+    padding: ;
+}
+
+.card{
+    display: flex;
+    text-align: justify;
+    padding: 1vw 0 ;
+}
+
+.card_img{
+    padding: 0 0 0 2vw;
+}
+
+.card_img2{
+    padding: 0 2vw 0 0;
+}
+
+.card_cj{
+    display: flex;
+    padding: 0 5vw;
+}
+.card_cj p{
+    padding: 1vw 2vw;
+    text-align: justify;
+}
+
+.card_cj h3{
+    padding-top: 1vw;
+}
+
+.como_jogar h1{
+    font-size: 4vw;
+    padding: 0 0 2vw;
+}
+
+.muito_legal h1{
+    font-size: 4vw;
+    padding: 2vw 0 2vw;
+}
+
+.muito_legal p{
+    padding: 0 15vw 5vw ;
+    text-align: center;
+}
+.jogue-agora{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 1vw 5vw 1vw 5vw;
+    border-radius: 15px;
+    background-color: #00afef;
+    outline: none;
+    box-shadow: 5px 5px 5px black;
+    color: #ffffff;
+}
