@@ -1,0 +1,33 @@
+{
+    "pt_br": {
+        "nav_bar":{
+            "home": "Inicio",
+            "instructions": "Instruções",
+            "about_us": "Sobre Nós",
+            "about_tea": "Sobre o TEA"
+        },
+        "landing_page":{
+            "header":{
+                "welcome": "Bem Vindo",
+                "text": "Esse projeto foi desenvolvido totalmente por acadêmicos de Engenharia de Software e Análise e Desenvolvimento de Sistemas em parceria com acadêmicos de Pedagogia. Esperamos que você goste!",
+                "button": "Jogue Agora"
+            }
+        }
+    },
+    "en": {
+        "nav_bar":{
+            "home": "Home",
+            "instructions": "Instructions",
+            "about_us": "About Us",
+            "about_tea": "ABOUT ASD"
+        },
+        "landing_page":{
+            "header":{
+                "welcome": "Welcome",
+                "text": "This project was developed entirely by academics of Software Engineering and Analysis and Systems Development in partnership with academics of Pedagogy. We hope you like it!",
+                "button": "Play Now"
+            }
+        }
+    }
+    
+}
