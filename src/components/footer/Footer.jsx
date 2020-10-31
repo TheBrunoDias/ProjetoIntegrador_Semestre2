@@ -5,23 +5,25 @@ import { Link } from 'react-router-dom';
 import Logo from '../../../src/Assets/img/landingpage/Logo.png';
 
 
+
+
 function backToTop() {
     window.scrollBy({
-        top: -window.innerHeight*2,
+        top: -window.innerHeight * 2,
         behavior: "smooth",
     });
 }
 
-export default function Footer() {
+export default function Footer({ language }) {
 
     return (
         <footer className="footer">
             <ul className="footer-list">
-                <li onClick={backToTop}>Voltar para o Topo</li>
-                <li><Link to='/' className="footer-link">Inicio</Link></li>
-                <li><Link to='/Instrucoes' className="footer-link">Instruções</Link></li>
-                <li><Link to='/Sobre_nos' className="footer-link">Sobre Nós</Link></li>
-                <li><Link to='/Sobre_tea' className="footer-link">Sobre o TEA</Link></li>
+                <li onClick={backToTop}>{language.footer.back_to_top}</li>
+                <li><Link to='/' className="footer-link">{language.footer.home}</Link></li>
+                <li><Link to='/Instrucoes' className="footer-link">{language.footer.instructions}</Link></li>
+                <li><Link to='/Sobre_nos' className="footer-link">{language.footer.about_us}</Link></li>
+                <li><Link to='/Sobre_tea' className="footer-link">{language.footer.about_tea}</Link></li>
             </ul>
             <img src={Logo} alt="Uniamericon Logo" />
         </footer>

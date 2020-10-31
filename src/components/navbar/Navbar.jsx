@@ -31,8 +31,8 @@ function Navbar({ language, changeLanguage }) {
                         </Link>
                     </li>
                 </ul>
+                <button className='nav-links linguage_btn' onClick={changeLanguage}>Linguagem</button>
 
-                <button onClick={changeLanguage}>Linguagem</button>
             </div>
         </nav>
     );

@@ -1,14 +1,25 @@
 
 .navbar{
-    padding: 3vw;;
-    width: 40vw;
+    padding: 3vw;
+    width: 90vw;
+}
+
+.navbar .nav-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar .nav-container .nav-menu{
     display: flex;
+    width: 60vw;
     list-style: none;
     justify-content: space-around;
     align-items: center;
+}
+
+.nav_item{
+    margin: 10px;
+    padding: 10px;
 }
 
 .nav-links{
@@ -19,4 +30,11 @@
 
 .nav-links:hover{
     border-top: 1px solid black;
+}
+
+.linguage_btn{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
 }

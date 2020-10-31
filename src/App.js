@@ -26,11 +26,11 @@ function App() {
         }}/>
         <Switch>
           <Route path='/' exact render={() => <LandingPage language={language} />}/>
-          <Route path='/Instrucoes' component={Instrucoes} />
-          <Route path='/Sobre_nos' component={Sobre_nos} />
-          <Route path='/Sobre_tea' component={Sobre_tea} />
+          <Route path='/Instrucoes' render={() => <Instrucoes language={language} />}/>
+          <Route path='/Sobre_nos'  render={() => <Sobre_nos language={language} />} />
+          <Route path='/Sobre_tea'  render={() => <Sobre_tea language={language} />}   />
         </Switch>
-        <Footer />
+        <Footer language={language} />
       </Router>
 
     </>
