@@ -26,7 +26,7 @@ function App() {
         }}/>
         <Switch>
           <Route path='/' exact render={() => <LandingPage language={language} />}/>
-          <Route path='/Instrucoes' render={() => <Login language={language} />}/>
+          <Route path='/Login' render={() => <Login language={language} />}/>
           <Route path='/Sobre_nos'  render={() => <Sobre_nos language={language} />} />
           <Route path='/Sobre_tea'  render={() => <Sobre_tea language={language} />}   />
         </Switch>

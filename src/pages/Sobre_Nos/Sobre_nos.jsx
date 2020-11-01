@@ -13,6 +13,7 @@ export default function Sobre_nos({ language }) {
         <div className='txt'>
           <h1>{language.about_us.title}</h1>
           <p><b>{language.about_us.text}</b></p>
+          <p><b>{language.about_us.text_2}</b></p>
         </div>
 
         <div className='team'>
