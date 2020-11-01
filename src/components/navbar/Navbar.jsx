@@ -16,7 +16,7 @@ function Navbar({ language, changeLanguage }) {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/Instrucoes' className='nav-links'>
+                        <Link to='/Login' className='nav-links'>
                             {language.nav_bar.instructions}
                         </Link>
                     </li>

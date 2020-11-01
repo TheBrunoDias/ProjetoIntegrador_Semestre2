@@ -1,4 +1,4 @@
-.container_sobre_tea{
+.container_sobre{
     margin: 0;
     padding: 2.5vw;
     font-family: arial;
@@ -17,16 +17,26 @@
     color: #cc66ff;
 }
 
-.team{
-    text-align: center;
+.alert{
+    display: flex;
+    text-align: justify;
     padding: 5vw 0 5vw 5vw;
+    justify-content: space-around;
 }
 
-.container_sobre_tea .team .team_icon{
+.alert_icon{
     padding: 2vw 3vw 0 0;
+    width: 20%;
 }
 
-.team_drawn{
-    z-index: -1;
-    float: right;
+.alert_icon h3{
+    padding: 2vw 0 0 0;
+}
+
+.alert_icon p{
+    padding: 2vw 0 0 0;
+}
+
+.alert_drawn img{
+    height: 50vw;
 }

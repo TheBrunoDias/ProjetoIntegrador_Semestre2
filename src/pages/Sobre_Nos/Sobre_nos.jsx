@@ -9,11 +9,12 @@ import Team from "../../../src/Assets/img/SobreEquipe/Vector_imagem.png";
 export default function Sobre_nos({ language }) {
   return (
     <>
-      <div className='container'>
+      <div className='container_sobre'>
         <div className='txt'>
           <h1>{language.about_us.title}</h1>
           <p><b>{language.about_us.text}</b></p>
         </div>
+
         <div className='team'>
           <div className='team_icon'>
             <img src={Bruno} />

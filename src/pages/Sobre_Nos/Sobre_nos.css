@@ -1,4 +1,4 @@
-.container_sobre_nos{
+.container_sobre{
     margin: 0;
     padding: 2.5vw;
     font-family: arial;
@@ -17,14 +17,15 @@
     color: green;
 }
 
+.container_sobre_tea .team .team_icon{
+    padding: 2vw 3vw 0 0;
+}
+
 .team{
     display: flex;
     text-align: center;
     padding: 5vw 0 5vw 5vw;
-}
-
-.team_icon{
-    padding: 2vw 3vw 0 0;
+    justify-content: space-between;
 }
 
 .team_icon img{
@@ -32,7 +33,6 @@
     border-radius: 60%;
 }
 
-.team_drawn{
-    z-index: -1;
-    float: right;
+.team_icon h3{
+    padding: 2vw 0 0 0;
 }
