@@ -1,3 +1,51 @@
-.container_login{
-    text-align: center;
+.login_background{
+    background-image: url('../../Assets/img/LoginCadastro/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 40px;
 }
+
+.container_login{
+    background-color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.container_login img{
+    width: 50%;
+}
+
+.container_login form{
+    display: flex;
+    flex-direction: column;
+}
+.container_login form input, .container_login form button{
+    border: none;
+    outline: none;
+    width: 30vw;
+    height: 5vh;
+    margin: 1vh;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+
+.container_login form button{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15vw;
+    border: none;
+    background-color:#00AFEF;
+    color: white;
+}
+
