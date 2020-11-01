@@ -1,4 +1,4 @@
-.container{
+.container_sobre_nos{
     margin: 0;
     padding: 2.5vw;
     font-family: arial;
@@ -14,7 +14,7 @@
 
 .txt p{
     padding: 1vw 0 0 0;
-    color: #cc66ff;
+    color: green;
 }
 
 .team{

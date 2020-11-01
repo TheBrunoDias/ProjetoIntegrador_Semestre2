@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 
 //PAGES
-import LandingPage from './pages/landingpage/index';
+import LandingPage from './pages/landingpage/landingpage';
 import Instrucoes from './pages/Instrucoes/Instrucoes';
 import Sobre_nos from './pages/Sobre_Nos/Sobre_nos';
 import Sobre_tea from './pages/Sobre_tea/Sobre_tea';

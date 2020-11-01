@@ -9,12 +9,22 @@ import Team from "../../../src/Assets/img/SobreEquipe/Vector_imagem.png";
 export default function Sobre_nos({ language }) {
   return (
     <>
+<<<<<<< Updated upstream
       <div className='container'>
         <div className='txt'>
           <h1>{language.about_us.title}</h1>
           <p><b>{language.about_us.text}</b></p>
         </div>
         <div className='team'>
+=======
+    <div className='container_sobre_nos'>
+      <div className='txt'>
+        <h1>Sobre a Equipe</h1>
+        <p><b>A equipe é composta por alunos do 2º Período do curso de Engenharia de Software da faculdade UniAmérica.<br /><br /> O projeto vem sendo desenvolvido juntamente com acadêmicas de Pedagogia nas quais foram responsáveis por aplicar o projeto e coletar informações. Nossa equipe está responsável de digitalizar o projeto e torna-lo mais interativo e ainda mais divertido.</b></p>
+      </div>
+
+      <div className='team'>
+>>>>>>> Stashed changes
           <div className='team_icon'>
             <img src={Bruno} />
             <h3>Bruno Dias</h3>
@@ -33,9 +43,13 @@ export default function Sobre_nos({ language }) {
           <div className='team_drawn'>
             <img src={Team} />
           </div>
+<<<<<<< Updated upstream
         </div>
 
 
+=======
+      </div>
+>>>>>>> Stashed changes
       </div>
     </>
   );
