@@ -21,24 +21,24 @@ export default function Sobre_tea() {
         </div>
         <div className='alert'>
           <div className='alert_icon'>
-            <img src={Tea} />
+            <img src={Tea} alt="tea img"/>
             <h3>{language.about_tea.title_1}</h3>
             <p>{language.about_tea.text_1}</p>
           </div>
 
           <div className='alert_icon'>
-            <img src={Color} />
+            <img src={Color} alt="color img"/>
             <h3>{language.about_tea.title_2}</h3>
             <p>{language.about_tea.text_2}</p>
           </div>
 
           <div className='alert_icon'>
-            <img src={Warning} />
+            <img src={Warning} alt="warning img"/>
             <p>{language.about_tea.alert}</p>
           </div>
 
           <div className='alert_drawn'>
-            <img src={Laco} />
+            <img src={Laco} alt="simbol img" />
           </div>
         </div>
 

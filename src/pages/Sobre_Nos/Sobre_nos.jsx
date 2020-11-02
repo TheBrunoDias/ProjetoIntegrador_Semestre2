@@ -21,22 +21,22 @@ export default function Sobre_nos() {
 
         <div className='team'>
           <div className='team_icon'>
-            <img src={Bruno} />
+            <img src={Bruno} alt="bruno img" />
             <h3>Bruno Dias</h3>
           </div>
 
           <div className='team_icon'>
-            <img src={Mariana} />
+            <img src={Mariana} alt="mariana img" />
             <h3>Mariana Gonzalez</h3>
           </div>
 
           <div className='team_icon'>
-            <img src={Marcelo} />
+            <img src={Marcelo} alt="marcelo img" />
             <h3>Marcelo Fortes</h3>
           </div>
 
           <div className='team_drawn'>
-            <img src={Team} />
+            <img src={Team} alt="team img" />
           </div>
         </div>
       </div>

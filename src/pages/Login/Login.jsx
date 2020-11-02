@@ -1,13 +1,12 @@
 import React from 'react';
 import './Login.css';
 import logo from '../../Assets/img/LoginCadastro/Logo.png';
-import { Link} from 'react-router-dom';
 
-import { useLanguage } from '../../context/language';
+// import { useLanguage } from '../../context/language';
 
 function Login() {
 
-  const {language} = useLanguage();
+  // const {language} = useLanguage();
 
   return (
     <div className="login_background">
