@@ -32,9 +32,27 @@
     border-top: 1px solid black;
 }
 
-.linguage_btn{
-    border: none;
-    background: none;
-    outline: none;
+.language-menu{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.language-menu-container{
+    width: 10vw;
+    text-align: center;
+    position: absolute;
+    right: 2vw;
+}
+
+.language-menu li{
+    font-size: 22px;
+    list-style: none;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     cursor: pointer;
+}
+.language-menu li:hover{
+    background-color: #00AFEF;
 }

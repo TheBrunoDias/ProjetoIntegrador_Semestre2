@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { RiArrowDownSLine } from 'react-icons/ri'
 
-import {useLanguage} from '../../context/language';
+import DropDown from '../dropdown/DropDown';
+
+import { useLanguage } from '../../context/language';
 
 function Navbar() {
 
-    const {languageBool, setLanguageBool, language} = useLanguage();
+    const { languageBool, setLanguageBool, language } = useLanguage();
 
     return (
         <nav className='navbar'>
@@ -33,14 +36,15 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                <button 
-                    className='nav-links linguage_btn' 
-                    onClick={() => setLanguageBool(!languageBool)}
-                    >
-                    {
-                        (languageBool) ? <> Português </> : <>Inglês </>
-                    }
-                    </button>
+
+                <div className="language-menu-container">
+                    <DropDown title={<>{languageBool ? <>Idioma</> : <>Language</>} <RiArrowDownSLine /> </>}>
+                        <ul className="language-menu">
+                            <li onClick={() => setLanguageBool(true)}>Português</li>
+                            <li onClick={() => setLanguageBool(false)}>Inglês</li>
+                        </ul>
+                    </DropDown>
+                </div>
 
             </div>
         </nav>
