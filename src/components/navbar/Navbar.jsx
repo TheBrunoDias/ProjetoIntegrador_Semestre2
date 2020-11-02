@@ -38,7 +38,10 @@ function Navbar() {
                 </ul>
 
                 <div className="language-menu-container">
-                    <DropDown title={<>{languageBool ? <>Idioma</> : <>Language</>} <RiArrowDownSLine /> </>}>
+                    <DropDown 
+                        title={<>{languageBool ? <>Idioma</> : <>Language</>} <RiArrowDownSLine /> </>}
+                        width="10vw"
+                    >
                         <ul className="language-menu">
                             <li onClick={() => setLanguageBool(true)}>Português</li>
                             <li onClick={() => setLanguageBool(false)}>Inglês</li>
