@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Logo from '../../../src/Assets/img/landingpage/Logo.png';
 
-
+import { useLanguage } from '../../context/language';
 
 
 function backToTop() {
@@ -14,8 +14,9 @@ function backToTop() {
     });
 }
 
-export default function Footer({ language }) {
+export default function Footer() {
 
+    const {language} = useLanguage();
     return (
         <footer className="footer">
             <ul className="footer-list">

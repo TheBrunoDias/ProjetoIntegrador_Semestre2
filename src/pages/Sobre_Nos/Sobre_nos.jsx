@@ -6,7 +6,10 @@ import Marcelo from '../../../src/Assets/img/SobreEquipe/marcelo.jpg';
 import Mariana from '../../../src/Assets/img/SobreEquipe/mariana.jpg';
 import Team from "../../../src/Assets/img/SobreEquipe/Vector_imagem.png";
 
-export default function Sobre_nos({ language }) {
+import { useLanguage } from '../../context/language';
+
+export default function Sobre_nos() {
+  const {language} = useLanguage();
   return (
     <>
       <div className='container_sobre'>

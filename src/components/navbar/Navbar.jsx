@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+import {useLanguage} from '../../context/language';
 
+function Navbar() {
 
-function Navbar({ language, changeLanguage }) {
+    const {languageBool, setLanguageBool, language} = useLanguage();
 
     return (
         <nav className='navbar'>
@@ -31,7 +33,14 @@ function Navbar({ language, changeLanguage }) {
                         </Link>
                     </li>
                 </ul>
-                <button className='nav-links linguage_btn' onClick={changeLanguage}>Linguagem</button>
+                <button 
+                    className='nav-links linguage_btn' 
+                    onClick={() => setLanguageBool(!languageBool)}
+                    >
+                    {
+                        (languageBool) ? <> Português </> : <>Inglês </>
+                    }
+                    </button>
 
             </div>
         </nav>

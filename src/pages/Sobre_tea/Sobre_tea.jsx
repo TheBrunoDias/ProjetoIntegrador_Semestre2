@@ -6,7 +6,12 @@ import Color from '../../../src/Assets/img/SobreOTea/color.png';
 import Warning from '../../../src/Assets/img/SobreOTea/warning.png';
 import Laco from "../../../src/Assets/img/SobreOTea/laço.png";
 
-export default function Sobre_tea({ language }) {
+import {useLanguage} from '../../context/language';
+
+export default function Sobre_tea() {
+
+  const {language} = useLanguage();
+
   return (
     <>
       <div className='container_sobre'>

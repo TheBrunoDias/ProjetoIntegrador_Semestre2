@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 //COMPONENTES
 import Navbar from './components/navbar/Navbar';
+
+//PROVIDERS
+import LanguageProvider from './context/language';
 
 //PAGES
 import LandingPage from './pages/landingpage/landingpage';
@@ -11,29 +14,22 @@ import Sobre_nos from './pages/Sobre_Nos/Sobre_nos';
 import Sobre_tea from './pages/Sobre_tea/Sobre_tea';
 import Footer from './components/footer/Footer';
 
-import * as data from './server/language.json';
-
 function App() {
 
-  const [language, setLanguage] = useState(data.pt_br);
-  const [languageBool, setLinguageBool] = useState(false);
   return (
-    <>
+    <LanguageProvider>
       <Router>
-        <Navbar language={language} changeLanguage={() => {
-          setLinguageBool(!languageBool);
-          (languageBool) ? setLanguage(data.en) : setLanguage(data.pt_br)
-        }}/>
+        <Navbar />
         <Switch>
-          <Route path='/' exact render={() => <LandingPage language={language} />}/>
-          <Route path='/Login' render={() => <Login language={language} />}/>
-          <Route path='/Sobre_nos'  render={() => <Sobre_nos language={language} />} />
-          <Route path='/Sobre_tea'  render={() => <Sobre_tea language={language} />}   />
+          <Route path='/' exact component={LandingPage} />
+          <Route path='/Login' component={Login} />
+          <Route path='/Sobre_nos' component={Sobre_nos}/>
+          <Route path='/Sobre_tea' component={Sobre_tea}/>
         </Switch>
-        <Footer language={language} />
+        <Footer />
       </Router>
 
-    </>
+    </LanguageProvider>
   );
 }
 
