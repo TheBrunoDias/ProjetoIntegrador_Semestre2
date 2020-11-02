@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Title = styled.button`
     display: flex; 
     justify-content: center;
+    cursor: pointer;
     align-items: center;
     font-size: 22px;
     background: none;
