@@ -1,5 +1,6 @@
 import React from 'react';
 import './landingpage.css';
+
 //IMPORTANDO IMAGENS
 import Logo from '../../../src/Assets/img/landingpage/Logo.png'
 import Why from '../../../src/Assets/img/landingpage/why.png'

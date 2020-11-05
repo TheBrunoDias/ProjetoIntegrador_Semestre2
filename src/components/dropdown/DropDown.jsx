@@ -11,6 +11,7 @@ const Title = styled.button`
     background: none;
     border: none;
     outline: none;
+    transition: 1s;
 `;
 
 export default function DropDown({ children, title, width = '10vw' }) {
