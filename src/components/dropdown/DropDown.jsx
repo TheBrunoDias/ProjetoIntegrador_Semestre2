@@ -14,7 +14,7 @@ const Title = styled.button`
     transition: 1s;
 `;
 
-export default function DropDown({ children, title, width = '10vw' }) {
+export default function DropDown({ children, title, width = '10vw' }) { //View Width = 10% da largura da tela 
 
     const [visible, setVisible] = useState(false);
 

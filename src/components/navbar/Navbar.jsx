@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //Com a nova att n é mais preciso importar o React
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { RiArrowDownSLine } from 'react-icons/ri'
@@ -16,7 +16,7 @@ function Navbar() {
             <div className='nav-container'>
                 <ul className='nav-menu'>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/' className='nav-links'> {/* Redirecionamento*/}
                             {language.nav_bar.home}
                         </Link>
                     </li>
