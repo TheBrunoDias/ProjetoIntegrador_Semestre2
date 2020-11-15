@@ -35,6 +35,11 @@ function Navbar() {
                             {language.nav_bar.about_tea}
                         </Link>
                     </li>
+                    <li className='nav-item'>
+                        <Link to='/NewLP' className='nav-links'>
+                            {language.nav_bar.NewLP}
+                        </Link>
+                    </li>
                 </ul>
 
                 <div className="language-menu-container">
