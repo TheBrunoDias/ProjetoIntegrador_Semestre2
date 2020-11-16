@@ -13,39 +13,13 @@ import LandingPage from './pages/landingpage/landingpage';
 import Login from './pages/Login/Login';
 import Sobre_nos from './pages/Sobre_Nos/Sobre_nos';
 import Sobre_tea from './pages/Sobre_tea/Sobre_tea';
+import NewLP from './pages/NewLP/NewLP';
 import Footer from './components/footer/Footer';
 
 import LoadImg from './Assets/img/SobreEquipe/mariana.jpg';
 import LoadImg1 from './Assets/img/SobreEquipe/bruno.jpg';
 import LoadImg2 from './Assets/img/SobreEquipe/marcelo.jpg';
 
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-const ImgContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const ImgLoad = styled.img`
-  width: 10vw;
-  margin-top: 5vh;
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  animation: ${rotate} 1s linear infinite;
-`;
 
 function App() {
 
@@ -58,13 +32,6 @@ function App() {
   return (
     <LanguageProvider>
       {
-        loading ?
-          <ImgContainer>
-            <ImgLoad src={LoadImg} alt="" />
-            <ImgLoad src={LoadImg1} alt="" />
-            <ImgLoad src={LoadImg2} alt="" />
-          </ImgContainer>
-          :
           <Router>
             <Navbar />
             <Switch>
@@ -72,6 +39,7 @@ function App() {
               <Route path='/Login' component={Login} />
               <Route path='/Sobre_nos' component={Sobre_nos} />
               <Route path='/Sobre_tea' component={Sobre_tea} />
+              <Route path='/NewLP' component={NewLP} />
             </Switch>
             <Footer />
           </Router>
