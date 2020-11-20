@@ -17,6 +17,7 @@ function backToTop() {
 export default function Footer() {
 
     const {language} = useLanguage();
+    
     return (
         <footer className="footer">
             <ul className="footer-list">
