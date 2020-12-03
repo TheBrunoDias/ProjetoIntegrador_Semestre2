@@ -1,128 +1,128 @@
 {
-    "pt_br": {
-        "nav_bar": {
-            "home": "Inicio",
-            "instructions": "Login",
-            "about_us": "Sobre Nós",
-            "about_tea": "Sobre o TEA",
-            "NewLP": "New LP"
-        },
-        
-        "footer": {
-            "back_to_top": "Voltar para o topo",
-            "home": "Inicio",
-            "instructions": "Login",
-            "about_us": "Sobre Nós",
-            "about_tea": "Sobre o TEA"
-        },
-
-        "landing_page": {
-            "header": {
-                "welcome": "Bem Vindo",
-                "text": "Esse projeto foi desenvolvido totalmente por acadêmicos de Engenharia de Software e Análise e Desenvolvimento de Sistemas em parceria com acadêmicos de Pedagogia. Esperamos que você goste!",
-                "button": "Jogue Agora"
-            },
-            "about": {
-                "title": "Sobre",
-                "why_text": "A proposta do projeto surgiu de uma demanda de uma professora do ensino fundamental I de uma escola municipal, em sua sala havia 28 crianças, sendo 2 com Síndrome de Down. Para esses alunos com SD, era muito difícil acompanhar o conteúdo de matemática do restante da turma, além disso se torne essencial para a aprendizagem que eles possuem materiais didáticos como suporte. Porém, a professora não sabia o que fazer e nem como aplicar algo que funcionasse para a turma toda igualmente. Essa turma também havia autistas, alunos com TDAH e dislexia, e para eles foi uma ferramenta que os auxiliou em seu aprendizado matemático. O maior objetivo do projeto era fazer com que o ensino dessa turma seja minimamente igualitário, não havendo apenas um método de ensino para alunos atípicos e outro para alunos típicos, assim facilitando a vida da professora e dos alunos",
-                "why_subtitle": "Por que?",
-                "how_text": "Uma ferramenta inspirada no jogo Numicon que auxilia alunos atípicos (Síndrome de Down, autismo, TDAH... entre outros), a aprenderam como realizar cálculos simples com o recurso visual.",
-                "how_subtitle": "Como?",
-                "what_text": "Um jogo multissensorial, que tem como objetivo ajudar as crianças atípicas denominado “Uniamericon”, o formato das peças, possibilitam ao alunos uma percepção da quantidade de cada número, facilita que os alunos vejam as operações que podem ser feitas, pretendendo favorecer seu entendimento, além das operações básicas de matemática, o jogo possibilita que seja trabalho números de pares e impares, pois a sequência de formação de números respeita agrupamentos de dois em dois, além de trabalhar dobro, triplo, adição e subtração",
-                "what_subtitle": "O que?"
-            },
-            "play": {
-                "title": "Como Jogar ?",
-                "counting_title": "Contando",
-                "counting_text": "Cada peça tem seu valor de acordo com a quantidade de blocos, assim, para realizar uma soma, basta contar a quantidade de quadradinhos, simples não é mesmo?",
-                "joining_title": "Montando",
-                "joining_text": "As peças possuem formatos que possibilita ao aluno juntar elas, auxiliando na contagem quando possui mais de uma peça na tela",
-                "creating_title": "Criando",
-                "creating_text": "Cada peça possui forma e cor diferentes, para estimular a criança a usar a imaginação tentado criar alguma imagem ou objeto"
-            },
-            "cool": {
-                "title": "Muito Legal, né?",
-                "text": "Como foi dito, esse é um projeto sem fins lucrativos totalmente feito por estudantes que visam tornar o mundo um lugar melhor para todas as pessoas. Para começar a jogar é só se inscrever no botão que está ai embaixo. Divirta-se! :)"
-            }
-        },
-
-        "about_us": {
-            "title": "Sobre a Equipe",
-            "text": "A equipe é composta por alunos do 2º Período do curso de Engenharia de Software da faculdade UniAmérica.",
-            "text_2": "O projeto vem sendo desenvolvido juntamente com acadêmicas de Pedagogia nas quais foram responsáveis por aplicar o projeto e coletar informações. Nossa equipe está responsável de digitalizar o projeto e torna-lo mais interativo e ainda mais divertido."
-        },
-
-        "about_tea": {
-            "title": "Transtorno do Espectro Austista",
-            "main_text": "O Transtorno do Espectro Autista (TEA) refere-se a uma série de condições caracterizadas por desafios com habilidades sociais, comportamentos repetitivos, fala e comunicação não-verbal, bem como por forças e diferenças únicas. Os sinais mais óbvios do Transtorno do Espectro Autista tendem a aparecer entre 2 e 3 anos de idade. Em alguns casos, ele pode ser diagnosticado por volta dos 18 meses.",
-            "title_1": "Afinal, o que é Autismo (TEA)?",
-            "text_1": "Sobre o termo “Transtornos do Espectro do Autismo. Usada para descrever crianças que apresentam dificuldades na interação social, no brincar e na comunicação. Veja mais na revista autismo no link abaixo:",
-            "title_2": "Classificação de cores no autista",
-            "text_2": "O autista tem uma percepção diferente das coisas entre elas temos as cores. Destacando que nem todos os autistas são iguais, alguns podem ter mais sensibilidade do que o outro. Aqui temos um site com mais detalhes.",
-            "alert": "As informações que se encontram aqui não substituem o diagnostico Médico."
-        }
+  "pt_br": {
+    "nav_bar": {
+      "home": "Inicio",
+      "blog": "Blog",
+      "about_us": "Sobre Nós",
+      "about_tea": "Sobre o TEA",
+      "NewLP": "New LP"
     },
 
-    "en": {
-        "nav_bar": {
-            "home": "Home",
-            "instructions": "Login",
-            "about_us": "About us",
-            "about_tea": "About ASD"
-        },
+    "footer": {
+      "back_to_top": "Voltar para o topo",
+      "home": "Inicio",
+      "blog": "Blog",
+      "about_us": "Sobre Nós",
+      "about_tea": "Sobre o TEA"
+    },
 
-        "footer": {
-            "back_to_top": "Back to top",
-            "home": "Home",
-            "instructions": "Login",
-            "about_us": "About us",
-            "about_tea": "About ASD"
-        },
+    "landing_page": {
+      "header": {
+        "welcome": "Bem Vindo",
+        "text": "Esse projeto foi desenvolvido totalmente por acadêmicos de Engenharia de Software e Análise e Desenvolvimento de Sistemas em parceria com acadêmicos de Pedagogia. Esperamos que você goste!",
+        "button": "Jogue Agora"
+      },
+      "about": {
+        "title": "Sobre",
+        "why_text": "A proposta do projeto surgiu de uma demanda de uma professora do ensino fundamental I de uma escola municipal, em sua sala havia 28 crianças, sendo 2 com Síndrome de Down. Para esses alunos com SD, era muito difícil acompanhar o conteúdo de matemática do restante da turma, além disso se torne essencial para a aprendizagem que eles possuem materiais didáticos como suporte. Porém, a professora não sabia o que fazer e nem como aplicar algo que funcionasse para a turma toda igualmente. Essa turma também havia autistas, alunos com TDAH e dislexia, e para eles foi uma ferramenta que os auxiliou em seu aprendizado matemático. O maior objetivo do projeto era fazer com que o ensino dessa turma seja minimamente igualitário, não havendo apenas um método de ensino para alunos atípicos e outro para alunos típicos, assim facilitando a vida da professora e dos alunos",
+        "why_subtitle": "Por que?",
+        "how_text": "Uma ferramenta inspirada no jogo Numicon que auxilia alunos atípicos (Síndrome de Down, autismo, TDAH... entre outros), a aprenderam como realizar cálculos simples com o recurso visual.",
+        "how_subtitle": "Como?",
+        "what_text": "Um jogo multissensorial, que tem como objetivo ajudar as crianças atípicas denominado “Uniamericon”, o formato das peças, possibilitam ao alunos uma percepção da quantidade de cada número, facilita que os alunos vejam as operações que podem ser feitas, pretendendo favorecer seu entendimento, além das operações básicas de matemática, o jogo possibilita que seja trabalho números de pares e impares, pois a sequência de formação de números respeita agrupamentos de dois em dois, além de trabalhar dobro, triplo, adição e subtração",
+        "what_subtitle": "O que?"
+      },
+      "play": {
+        "title": "Como Jogar ?",
+        "counting_title": "Contando",
+        "counting_text": "Cada peça tem seu valor de acordo com a quantidade de blocos, assim, para realizar uma soma, basta contar a quantidade de quadradinhos, simples não é mesmo?",
+        "joining_title": "Montando",
+        "joining_text": "As peças possuem formatos que possibilita ao aluno juntar elas, auxiliando na contagem quando possui mais de uma peça na tela",
+        "creating_title": "Criando",
+        "creating_text": "Cada peça possui forma e cor diferentes, para estimular a criança a usar a imaginação tentado criar alguma imagem ou objeto"
+      },
+      "cool": {
+        "title": "Muito Legal, né?",
+        "text": "Como foi dito, esse é um projeto sem fins lucrativos totalmente feito por estudantes que visam tornar o mundo um lugar melhor para todas as pessoas. Para começar a jogar é só se inscrever no botão que está ai embaixo. Divirta-se! :)"
+      }
+    },
 
-        "landing_page": {
-            "header": {
-                "welcome": "Welcome",
-                "text": "This project was developed entirely by academics of Software Engineering and Analysis and Systems Development in partnership with academics of Pedagogy. We hope you like it!",
-                "button": "Play Now"
-            },
-            "about": {
-                "title": "About",
-                "why_text": "The project proposal arose from a demand from a teacher of elementary school I from a municipal school, in her room there were 28 children, 2 with Down Syndrome. For these students with DS, it was very difficult to keep up with the math content of the rest of the class, in addition to making it essential for learning that they have teaching materials as support. However, the teacher did not know what to do or how to apply something that would work for the whole class equally. This class also had autists, students with ADHD and dyslexia, and for them it was a tool that helped them in their mathematical learning. The main objective of the project was to make the teaching of this class minimally equal, with not only one teaching method for atypical students and another for typical students, thus facilitating the life of the teacher and students",
-                "why_subtitle": "Why?",
-                "how_text": "A tool inspired by the Numicon game that helps atypical students (Down syndrome, autism, ADHD ... among others), learned how to perform simple calculations with the visual aid.",
-                "how_subtitle": "How?",
-                "what_text": "A multisensory game, which aims to help atypical children called “Uniamericon”, the format of the pieces, allow students to perceive the quantity of each number, makes it easier for students to see the operations that can be done, intending to favor their understanding, in addition to basic math operations, the game makes it possible to work odd and even numbers, since the sequence of number formation respects clusters of two in two, in addition to working double, triple, addition and subtraction",
-                "what_subtitle": "What?"
-            },
-            "play": {
-                "title": "How to play?",
-                "counting_title": "Counting",
-                "counting_text": "Each piece has its value according to the number of blocks, so to make a sum, just count the number of squares, simple is not it?",
-                "joining_title": "Joining",
-                "joining_text": "The pieces have formats that allow the student to join them, helping to count when there is more than one piece on the screen",
-                "creating_title": "Creating",
-                "creating_text": "Each piece has a different shape and color, to encourage the child to use their imagination trying to create an image or object"
-            },
-            "cool": {
-                "title": "Pretty cool, right?",
-                "text": "As stated, this is a non-profit project entirely made by students who aim to make the world a better place for everyone. To start playing, just subscribe to the button below. Have some fun:)"
-            }
-        },
+    "about_us": {
+      "title": "Sobre a Equipe",
+      "text": "A equipe é composta por alunos do 2º Período do curso de Engenharia de Software da faculdade UniAmérica.",
+      "text_2": "O projeto vem sendo desenvolvido juntamente com acadêmicas de Pedagogia nas quais foram responsáveis por aplicar o projeto e coletar informações. Nossa equipe está responsável de digitalizar o projeto e torna-lo mais interativo e ainda mais divertido."
+    },
 
-        "about_us": {
-            "title": "About the team",
-            "text": "The team is made up of students from the 2nd Period of the Software Engineering course at UniAmérica.",
-            "text_2":" The project has been developed together with Pedagogy students in which they were responsible for applying the project and collecting information. Our team is responsible for digitizing the project and making it more interactive and even more fun."
-        },
-
-        "about_tea": {
-            "title": "Austist Spectrum Disorder",
-            "main_text": "Autistic Spectrum Disorder (ASD) refers to a series of conditions characterized by challenges with social skills, repetitive behaviors, non-verbal speech and communication, as well as unique strengths and differences. The most obvious signs of Autistic Spectrum Disorder tend to appear between 2 and 3 years of age. In some cases, it can be diagnosed at around 18 months.",
-            "title_1": "After all, what is Autism (ASD)?",
-            "text_1": "About the term “Autism Spectrum Disorders. Used to describe children who have difficulties in social interaction, playing and communication. See more in the autism magazine at the link below:",
-            "title_2": "Color classification in autistic",
-            "text_2": "The autistic person has a different perception of the things between them we have the colors. Noting that not all autistic people are the same, some may be more sensitive than the other. Here we have a website with more details.",
-            "alert": "The information found here does not replace the Medical diagnosis."
-        }
+    "about_tea": {
+      "title": "Transtorno do Espectro Austista",
+      "main_text": "O Transtorno do Espectro Autista (TEA) refere-se a uma série de condições caracterizadas por desafios com habilidades sociais, comportamentos repetitivos, fala e comunicação não-verbal, bem como por forças e diferenças únicas. Os sinais mais óbvios do Transtorno do Espectro Autista tendem a aparecer entre 2 e 3 anos de idade. Em alguns casos, ele pode ser diagnosticado por volta dos 18 meses.",
+      "title_1": "Afinal, o que é Autismo (TEA)?",
+      "text_1": "Sobre o termo “Transtornos do Espectro do Autismo. Usada para descrever crianças que apresentam dificuldades na interação social, no brincar e na comunicação. Veja mais na revista autismo no link abaixo:",
+      "title_2": "Classificação de cores no autista",
+      "text_2": "O autista tem uma percepção diferente das coisas entre elas temos as cores. Destacando que nem todos os autistas são iguais, alguns podem ter mais sensibilidade do que o outro. Aqui temos um site com mais detalhes.",
+      "alert": "As informações que se encontram aqui não substituem o diagnostico Médico."
     }
+  },
+
+  "en": {
+    "nav_bar": {
+      "home": "Home",
+      "blog": "blog",
+      "about_us": "About us",
+      "about_tea": "About ASD"
+    },
+
+    "footer": {
+      "back_to_top": "Back to top",
+      "home": "Home",
+      "blog": "blog",
+      "about_us": "About us",
+      "about_tea": "About ASD"
+    },
+
+    "landing_page": {
+      "header": {
+        "welcome": "Welcome",
+        "text": "This project was developed entirely by academics of Software Engineering and Analysis and Systems Development in partnership with academics of Pedagogy. We hope you like it!",
+        "button": "Play Now"
+      },
+      "about": {
+        "title": "About",
+        "why_text": "The project proposal arose from a demand from a teacher of elementary school I from a municipal school, in her room there were 28 children, 2 with Down Syndrome. For these students with DS, it was very difficult to keep up with the math content of the rest of the class, in addition to making it essential for learning that they have teaching materials as support. However, the teacher did not know what to do or how to apply something that would work for the whole class equally. This class also had autists, students with ADHD and dyslexia, and for them it was a tool that helped them in their mathematical learning. The main objective of the project was to make the teaching of this class minimally equal, with not only one teaching method for atypical students and another for typical students, thus facilitating the life of the teacher and students",
+        "why_subtitle": "Why?",
+        "how_text": "A tool inspired by the Numicon game that helps atypical students (Down syndrome, autism, ADHD ... among others), learned how to perform simple calculations with the visual aid.",
+        "how_subtitle": "How?",
+        "what_text": "A multisensory game, which aims to help atypical children called “Uniamericon”, the format of the pieces, allow students to perceive the quantity of each number, makes it easier for students to see the operations that can be done, intending to favor their understanding, in addition to basic math operations, the game makes it possible to work odd and even numbers, since the sequence of number formation respects clusters of two in two, in addition to working double, triple, addition and subtraction",
+        "what_subtitle": "What?"
+      },
+      "play": {
+        "title": "How to play?",
+        "counting_title": "Counting",
+        "counting_text": "Each piece has its value according to the number of blocks, so to make a sum, just count the number of squares, simple is not it?",
+        "joining_title": "Joining",
+        "joining_text": "The pieces have formats that allow the student to join them, helping to count when there is more than one piece on the screen",
+        "creating_title": "Creating",
+        "creating_text": "Each piece has a different shape and color, to encourage the child to use their imagination trying to create an image or object"
+      },
+      "cool": {
+        "title": "Pretty cool, right?",
+        "text": "As stated, this is a non-profit project entirely made by students who aim to make the world a better place for everyone. To start playing, just subscribe to the button below. Have some fun:)"
+      }
+    },
+
+    "about_us": {
+      "title": "About the team",
+      "text": "The team is made up of students from the 2nd Period of the Software Engineering course at UniAmérica.",
+      "text_2": " The project has been developed together with Pedagogy students in which they were responsible for applying the project and collecting information. Our team is responsible for digitizing the project and making it more interactive and even more fun."
+    },
+
+    "about_tea": {
+      "title": "Austist Spectrum Disorder",
+      "main_text": "Autistic Spectrum Disorder (ASD) refers to a series of conditions characterized by challenges with social skills, repetitive behaviors, non-verbal speech and communication, as well as unique strengths and differences. The most obvious signs of Autistic Spectrum Disorder tend to appear between 2 and 3 years of age. In some cases, it can be diagnosed at around 18 months.",
+      "title_1": "After all, what is Autism (ASD)?",
+      "text_1": "About the term “Autism Spectrum Disorders. Used to describe children who have difficulties in social interaction, playing and communication. See more in the autism magazine at the link below:",
+      "title_2": "Color classification in autistic",
+      "text_2": "The autistic person has a different perception of the things between them we have the colors. Noting that not all autistic people are the same, some may be more sensitive than the other. Here we have a website with more details.",
+      "alert": "The information found here does not replace the Medical diagnosis."
+    }
+  }
 }

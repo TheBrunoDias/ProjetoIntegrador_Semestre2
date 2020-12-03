@@ -1,0 +1,41 @@
+.blog-main-container {
+  padding: 2vh 5vw;
+  display: flex;
+}
+
+.blog-main-container .blog-main-posts {
+  width: 80%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cards-container .blog-card {
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 33%;
+}
+
+.cards-container .blog-card .card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.cards-container .blog-card .card-link h3 {
+  background-color: rgba(14, 193, 238, 0.445);
+  padding: 10px;
+}
+
+.blog-main-container .blog-main-aside ul {
+  list-style: none;
+}
+
+.blog-main-container .blog-main-aside ul li {
+  padding: 5px;
+}
