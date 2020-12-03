@@ -23,7 +23,6 @@ export default function Footer() {
             <ul className="footer-list">
                 <li onClick={backToTop}>{language.footer.back_to_top}</li>
                 <li><Link to='/' className="footer-link">{language.footer.home}</Link></li>
-                <li><Link to='/Instrucoes' className="footer-link">{language.footer.instructions}</Link></li>
                 <li><Link to='/Sobre_nos' className="footer-link">{language.footer.about_us}</Link></li>
                 <li><Link to='/Sobre_tea' className="footer-link">{language.footer.about_tea}</Link></li>
             </ul>
