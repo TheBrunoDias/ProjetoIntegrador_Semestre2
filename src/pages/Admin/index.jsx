@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 
 import admin from "../../server/admin.json";
 
@@ -92,7 +94,7 @@ export default function AdminPage() {
             required
             value={password}
           />
-          <Input type="submit" value="ENTRAR" />
+          <Link to="/admin/update">Login</Link>
         </form>
 
         {check ? (

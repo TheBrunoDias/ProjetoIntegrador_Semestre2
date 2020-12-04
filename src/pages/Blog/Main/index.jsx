@@ -12,7 +12,7 @@ export default function BlogMain() {
       <div className="blog-main-container">
         <section className="blog-main-posts">
           <h2>Ultimas Postagens</h2>
-
+          <Link to="/admin"><button className="login-admin">Nova Postagem</button></Link>
           {console.log(Posts.length)}
           {Posts.length === 0 ? null : (
             <div className="cards-container">

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Posts from "../../../server/posts.json";
+import { Link } from "react-router-dom";
+import "./newpost.css";
 
 export default function NewPost() {
   const [title, setTitle] = useState("");
@@ -42,7 +44,7 @@ export default function NewPost() {
   }
 
   return (
-    <div>
+    <div className="inputs">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -53,6 +55,8 @@ export default function NewPost() {
           onChange={handleTitle}
           value={title}
         />
+        <br/>
+        <br/>
         <input
           type="text"
           name="post_author"
@@ -61,17 +65,26 @@ export default function NewPost() {
           required
           onChange={handleAuthor}
           value={author}
-        />
-        <input
-          type="text"
-          required
-          name="post_description"
-          id="post_description"
-          placeholder="Descrição"
-          onChange={handleDescription}
-          value={description}
-        />
-        <input type="submit" value="Cadastrar" />
+          />
+        <br/>
+        <br/>
+        <div className="post_description">
+          <input
+            type="text"
+            required
+            name="post_description"
+            id="post_description"
+            placeholder="Descrição"
+            onChange={handleDescription}
+            value={description}
+            />
+          <br/>
+          <br/>
+        </div>
+        <div className="buttons">
+          <Link to="/blog"><button className="button button2">Cancelar</button></Link>
+          <button type="submit" className="button button1">Postar</button>
+        </div>
       </form>
     </div>
   );

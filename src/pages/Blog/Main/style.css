@@ -39,3 +39,19 @@
 .blog-main-container .blog-main-aside ul li {
   padding: 5px;
 }
+
+.login-admin{
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border: 2px solid #4CAF50;
+}
+
+.login-admin:hover {
+  background-color: #4CAF50;
+  color: white;
+}
