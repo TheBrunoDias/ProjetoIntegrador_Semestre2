@@ -34,8 +34,9 @@ const Input = styled.input`
 export default function AdminPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [check, setCheck] = useState("");
 
-  function handleSubmit(e) {
+  function handleSubmit(event) {
     const loginData = {
       email: email,
       password: password,
@@ -46,13 +47,15 @@ export default function AdminPage() {
       loginData.password !== admin.password
     ) {
       console.log("Usuário Inválido");
+      setCheck(true);
     } else {
       console.log(loginData);
       console.log(`Bem Vindo ${admin.name}`);
+      setCheck(false);
     }
     setEmail("");
     setPassword("");
-    e.preventDefault();
+    event.preventDefault();
   }
 
   function handleEmail(e) {
@@ -88,6 +91,10 @@ export default function AdminPage() {
           />
           <Input type="submit" value="ENTRAR" />
         </form>
+
+        {check ? (
+          <p style={{ color: "red" }}>Usuário Invalido, tente novamente</p>
+        ) : null}
       </Container>
     </PageContainer>
   );
