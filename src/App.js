@@ -15,24 +15,24 @@ import Footer from "./components/footer/Footer";
 import GamePage from "./pages/Game";
 import BlogMain from "./pages/Blog/Main";
 import AdminPage from "./pages/Admin";
+import NewPost from "./pages/Blog/NewPost";
 
 function App() {
   return (
     <LanguageProvider>
-      {
-        <Router>
-          <Navbar />
-          <Switch>
-            <Route path="/" exact component={LandingPage} />
-            <Route path="/Sobre_nos" component={Sobre_nos} />
-            <Route path="/blog" component={BlogMain} />
-            <Route path="/Sobre_tea" component={Sobre_tea} />
-            <Route path="/jogo" component={GamePage} />
-            <Route path="/admin" component={AdminPage} />
-          </Switch>
-          <Footer />
-        </Router>
-      }
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={LandingPage} />
+          <Route path="/Sobre_nos" component={Sobre_nos} />
+          <Route path="/blog" component={BlogMain} />
+          <Route path="/Sobre_tea" component={Sobre_tea} />
+          <Route path="/jogo" component={GamePage} />
+          <Route path="/admin" exact component={AdminPage} />
+          <Route path="/admin/update" component={NewPost} />
+        </Switch>
+        <Footer />
+      </Router>
     </LanguageProvider>
   );
 }

@@ -55,6 +55,7 @@ export default function AdminPage() {
     }
     setEmail("");
     setPassword("");
+
     event.preventDefault();
   }
 
@@ -79,6 +80,7 @@ export default function AdminPage() {
             id="admin_email"
             placeholder="Insira seu Email"
             onChange={handleEmail}
+            required
             value={email}
           />
           <Input
@@ -87,6 +89,7 @@ export default function AdminPage() {
             id="admin_password"
             placeholder="Insira o Password"
             onChange={handlePassword}
+            required
             value={password}
           />
           <Input type="submit" value="ENTRAR" />
