@@ -3,9 +3,16 @@
     text-decoration: none;
 }
 
-.inputs{
-    padding: 5vw;
+.container-new-post{
+    margin: 5vw;
     text-align: center;
+    border-color: 2px solid black;
+    min-height: 290px;
+}
+
+.inputs{
+    text-align: center;
+    width: 100%;
 }
 
 .inputs input{
@@ -13,6 +20,7 @@
     height: 50px;
     border-radius: 4px;
     padding: 10px;
+    margin: 2px;
 }
 
 .post_description input{
@@ -34,20 +42,24 @@
     background-color: white; 
     color: black; 
     border: 2px solid #4CAF50;
+    border-radius: 4px;
 }
 
 .button1:hover {
     background-color: #4CAF50;
     color: white;
+    border-radius: 4px;
 }
 
 .button2 {
     background-color: white; 
     color: black; 
     border: 2px solid #FF3131;
-  }
-  
-  .button2:hover {
+    border-radius: 4px;
+}
+
+.button2:hover {
     background-color: #FF3131;
     color: white;
+    border-radius: 4px;
 }

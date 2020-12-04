@@ -1,6 +1,7 @@
 .blog-main-container {
   padding: 2vh 5vw;
   display: flex;
+  min-height: 400px;
 }
 
 .blog-main-container .blog-main-posts {

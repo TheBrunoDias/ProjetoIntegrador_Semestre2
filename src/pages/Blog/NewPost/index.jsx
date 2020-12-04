@@ -44,48 +44,50 @@ export default function NewPost() {
   }
 
   return (
-    <div className="inputs">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="post_title"
-          id="post_title"
-          placeholder="Titulo"
-          required
-          onChange={handleTitle}
-          value={title}
-        />
-        <br/>
-        <br/>
-        <input
-          type="text"
-          name="post_author"
-          id="post author"
-          placeholder="Autor"
-          required
-          onChange={handleAuthor}
-          value={author}
-          />
-        <br/>
-        <br/>
-        <div className="post_description">
+    <div className="container-new-post">
+        <h1>Nova Postagem</h1>
+        <br />
+        <br />
+      <div className="inputs">
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
+            name="post_title"
+            id="post_title"
+            placeholder="Titulo"
             required
-            name="post_description"
-            id="post_description"
-            placeholder="Descrição"
-            onChange={handleDescription}
-            value={description}
+            onChange={handleTitle}
+            value={title}
+          />
+          <br/>
+          <input
+            type="text"
+            name="post_author"
+            id="post author"
+            placeholder="Autor"
+            required
+            onChange={handleAuthor}
+            value={author}
             />
           <br/>
-          <br/>
-        </div>
-        <div className="buttons">
-          <Link to="/blog"><button className="button button2">Cancelar</button></Link>
-          <button type="submit" className="button button1">Postar</button>
-        </div>
-      </form>
+          <div className="post_description">
+            <input
+              type="text"
+              required
+              name="post_description"
+              id="post_description"
+              placeholder="Texto"
+              onChange={handleDescription}
+              value={description}
+              />
+            <br/>
+          </div>
+          <div className="buttons">
+            <Link to="/blog"><button className="button button2">Cancelar</button></Link>
+            <button type="submit" className="button button1">Postar</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

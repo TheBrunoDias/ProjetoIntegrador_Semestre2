@@ -1,37 +1,9 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+import "../Blog/NewPost/newpost.css";
 
 import admin from "../../server/admin.json";
 
-const PageContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const Container = styled.div`
-  padding: 30px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: #f3f3f3;
-  height: 60vh;
-
-  form {
-    display: flex;
-    width: 40vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-`;
-
-const Input = styled.input`
-  width: 80%;
-  padding: 10px;
-`;
 
 export default function AdminPage() {
   const [email, setEmail] = useState("");
@@ -72,35 +44,41 @@ export default function AdminPage() {
   }
 
   return (
-    <PageContainer>
+    <>
+    <div className="container-new-post">
       <h1>Painel Administrativo - Numigame</h1>
-      <Container>
+      <br/>
         <form onSubmit={handleSubmit}>
-          <Input
-            type="email"
-            name="admin_email"
-            id="admin_email"
-            placeholder="Insira seu Email"
-            onChange={handleEmail}
-            required
-            value={email}
-          />
-          <Input
-            type="password"
-            name="admin_password"
-            id="admin_password"
-            placeholder="Insira o Password"
-            onChange={handlePassword}
-            required
-            value={password}
-          />
-          <Link to="/admin/update">Login</Link>
+          <div className="inputs">
+            <input
+              type="email"
+              name="admin_email"
+              id="admin_email"
+              placeholder="Insira seu Email"
+              onChange={handleEmail}
+              required
+              value={email}
+            />
+            <br />
+            <input
+              type="password"
+              name="admin_password"
+              id="admin_password"
+              placeholder="Insira o Password"
+              onChange={handlePassword}
+              required
+              value={password}
+              />
+          </div>
+            <br/>
+            <br />
+          <Link to="/admin/update"><button className="button button1">Login</button></Link>
         </form>
 
         {check ? (
           <p style={{ color: "red" }}>Usuário Invalido, tente novamente</p>
         ) : null}
-      </Container>
-    </PageContainer>
+    </div>
+    </>
   );
 }
