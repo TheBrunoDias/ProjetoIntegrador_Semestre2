@@ -12,6 +12,8 @@ export default function BlogMain() {
       <div className="blog-main-container">
         <section className="blog-main-posts">
           <h2>Ultimas Postagens</h2>
+          <hr/>
+          <br />
           <Link to="/admin"><button className="login-admin">Nova Postagem</button></Link>
           {console.log(Posts.length)}
           {Posts.length === 0 ? null : (
@@ -35,6 +37,7 @@ export default function BlogMain() {
 
         <aside className="blog-main-aside">
           <h2>Principais posts</h2>
+          <hr />
 
           <ul>
             {Posts.map((post) => (

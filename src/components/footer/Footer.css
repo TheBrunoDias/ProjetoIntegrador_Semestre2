@@ -15,7 +15,7 @@
 }
 
 .footer .footer-list li {
-  padding: 5px 0px;
+  padding: 1px 0px;
   cursor: pointer;
   margin-top: 1vw;
 }
@@ -26,4 +26,8 @@
 .footer .footer-list .footer-link {
   color: white;
   text-decoration: none;
+}
+
+.footer img{
+  height: 100px;
 }
