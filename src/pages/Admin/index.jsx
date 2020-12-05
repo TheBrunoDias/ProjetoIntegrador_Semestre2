@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+<<<<<<< Updated upstream
 import "../Blog/Main/style.css";
+=======
+import "../Blog/NewPost/style.css";
+>>>>>>> Stashed changes
 
 import admin from "../../server/admin.json";
 
