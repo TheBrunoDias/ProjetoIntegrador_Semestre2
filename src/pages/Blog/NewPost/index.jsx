@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Posts from "../../../server/posts.json";
 import { Link } from "react-router-dom";
-import "./newpost.css";
+import "./style.css";
 
 export default function NewPost() {
   const [title, setTitle] = useState("");
