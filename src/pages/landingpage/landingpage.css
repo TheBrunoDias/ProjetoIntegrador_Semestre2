@@ -6,22 +6,22 @@
 .header{
     padding: 1vw 0 2vw 0;
     text-align: center;
-   display: flex;
-background-image: url(../../Assets/img/landingpage/header-background.png);
-background-size: 100%;
-height: 40vw;
+    display: flex;
+    background-image: url(../../Assets/img/landingpage/header-background.png);
+    background-size: 100%;
+    height: 40vw;
 }
 
 .container{
     text-align: center;
     background-color:#00418d;
-   display: flex;
+    display: flex;
 
 }
 .container-branco{
     position: relative;
     background-color: #ffffff;
-    margin: -6% 10% 0 10% ;
+    margin: 0 10vw 0 10vw ;
     border-radius: 45px;
     box-shadow: 1px 1px 5px black;
     padding-bottom: 0;
@@ -95,9 +95,8 @@ height: 40vw;
 .jogue-agora{
     text-align: center;
     text-decoration: none;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    padding: 1vw 5vw 1vw 5vw;
+    margin-bottom: 10vw;
+    padding: 1vw 5vw 1vw 5vw; 
     border-radius: 15px;
     background-color: #00afef;
     outline: none;
