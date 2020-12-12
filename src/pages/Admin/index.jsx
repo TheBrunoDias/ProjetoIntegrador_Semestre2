@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+import "../Blog/Main/style.css";
 import "../Blog/NewPost/style.css";
 
 import admin from "../../server/admin.json";
