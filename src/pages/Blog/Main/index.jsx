@@ -12,22 +12,26 @@ export default function BlogMain() {
       <div className="blog-main-container">
         <section className="blog-main-posts">
           <h2>Ultimas Postagens</h2>
-          <hr/>
+          <hr />
           <br />
-          <Link to="/admin"><button className="login-admin">Nova Postagem</button></Link>
+          <Link to="/admin/update">
+            <button className="login-admin">Nova Postagem</button>
+          </Link>
           {console.log(Posts.length)}
           {Posts.length === 0 ? null : (
             <div className="cards-container">
               {Posts.map((post) => (
-                <div className="blog-card">
-                  <Link to="/" className="card-link">
+                <div className="blog-card" key={post.id}>
+                  <Link to={`/blog/${post.id}`} className="card-link">
                     <h3>{post.title}</h3>
                     <br />
                     <p>
-                      {post.author}, {post.date}
+                      Autor: <strong>{post.author}</strong>, Data: {post.date}
                     </p>
                     <br />
-                    <p>{post.description}</p>
+                    <hr />
+                    <br />
+                    <p className="card-description">{post.description}</p>
                   </Link>
                 </div>
               ))}
@@ -41,8 +45,8 @@ export default function BlogMain() {
 
           <ul>
             {Posts.map((post) => (
-              <li>
-                <Link to="/"> {post.title}</Link>
+              <li key={post.id}>
+                <Link to={`/blog/${post.id}`}> {post.title}</Link>
               </li>
             ))}
           </ul>

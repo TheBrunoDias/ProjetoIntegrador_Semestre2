@@ -1,15 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
+import { useHistory } from "react-router-dom";
 import "../Blog/Main/style.css";
 import "../Blog/NewPost/style.css";
 
 import admin from "../../server/admin.json";
+import { useAuth } from "../../context/auth";
 
 export default function AdminPage() {
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [check, setCheck] = useState("");
+
+  const { setAuth } = useAuth();
 
   function handleSubmit(event) {
     const loginData = {
@@ -24,8 +27,8 @@ export default function AdminPage() {
       console.log("Usuário Inválido");
       setCheck(true);
     } else {
-      console.log(loginData);
-      console.log(`Bem Vindo ${admin.name}`);
+      setAuth(true);
+      history.push("/admin/update");
       setCheck(false);
     }
     setEmail("");
@@ -73,13 +76,15 @@ export default function AdminPage() {
           </div>
           <br />
           <br />
-          <Link to="/admin/update">
-            <button className="button button1">Login</button>
-          </Link>
+
+          <input type="submit" className="button button1" value="LOGIN" />
         </form>
 
         {check ? (
-          <p style={{ color: "red" }}>Usuário Invalido, tente novamente</p>
+          <p style={{ color: "red" }}>
+            Email: admin@admin <br />
+            Senha: admin
+          </p>
         ) : null}
       </div>
     </>

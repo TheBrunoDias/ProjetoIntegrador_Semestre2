@@ -1,0 +1,16 @@
+.single-post-container {
+  margin: 5%;
+  padding: 2%;
+  border: 2px solid black;
+  background-color: #f3f3f3;
+  margin-bottom: 2%;
+}
+
+.single-post-author {
+  display: flex;
+  margin: 5vw;
+  margin-top: 0;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
