@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Posts from "../../../server/posts.json";
 import { Link } from "react-router-dom";
-import "./newpost.css";
+import "./style.css";
 
 export default function NewPost() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [description, setDescription] = useState("");
+  const [confirm, setConfirm] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setConfirm(false);
+    }, 2000);
+  }, [confirm]);
 
   function handleSubmit(event) {
     const getDate = new Date();
@@ -27,6 +34,7 @@ export default function NewPost() {
     setTitle("");
     setAuthor("");
     setDescription("");
+    setConfirm(true);
 
     event.preventDefault();
   }
@@ -45,9 +53,9 @@ export default function NewPost() {
 
   return (
     <div className="container-new-post">
-        <h1>Nova Postagem</h1>
-        <br />
-        <br />
+      <h1>Nova Postagem</h1>
+      <br />
+      <br />
       <div className="inputs">
         <form onSubmit={handleSubmit}>
           <input
@@ -59,7 +67,7 @@ export default function NewPost() {
             onChange={handleTitle}
             value={title}
           />
-          <br/>
+          <br />
           <input
             type="text"
             name="post_author"
@@ -68,8 +76,8 @@ export default function NewPost() {
             required
             onChange={handleAuthor}
             value={author}
-            />
-          <br/>
+          />
+          <br />
           <div className="post_description">
             <input
               type="text"
@@ -79,14 +87,20 @@ export default function NewPost() {
               placeholder="Texto"
               onChange={handleDescription}
               value={description}
-              />
-            <br/>
+            />
+            <br />
           </div>
           <div className="buttons">
-            <Link to="/blog"><button className="button button2">Cancelar</button></Link>
-            <button type="submit" className="button button1">Postar</button>
+            <Link to="/blog">
+              <button className="button button2">Cancelar</button>
+            </Link>
+            <button type="submit" className="button button1">
+              Postar
+            </button>
           </div>
         </form>
+
+        {confirm ? <p>Cadastrado com sucesso</p> : null}
       </div>
     </div>
   );

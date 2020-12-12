@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../Blog/NewPost/newpost.css";
+import "../Blog/NewPost/style.css";
 
 import admin from "../../server/admin.json";
-
 
 export default function AdminPage() {
   const [email, setEmail] = useState("");
@@ -45,9 +44,9 @@ export default function AdminPage() {
 
   return (
     <>
-    <div className="container-new-post">
-      <h1>Painel Administrativo - Numigame</h1>
-      <br/>
+      <div className="container-new-post">
+        <h1>Painel Administrativo - Numigame</h1>
+        <br />
         <form onSubmit={handleSubmit}>
           <div className="inputs">
             <input
@@ -68,17 +67,19 @@ export default function AdminPage() {
               onChange={handlePassword}
               required
               value={password}
-              />
+            />
           </div>
-            <br/>
-            <br />
-          <Link to="/admin/update"><button className="button button1">Login</button></Link>
+          <br />
+          <br />
+          <Link to="/admin/update">
+            <button className="button button1">Login</button>
+          </Link>
         </form>
 
         {check ? (
           <p style={{ color: "red" }}>Usuário Invalido, tente novamente</p>
         ) : null}
-    </div>
+      </div>
     </>
   );
 }
