@@ -11,7 +11,7 @@ import Contando from "../../../src/Assets/img/landingpage/couting.png";
 import Montando from "../../../src/Assets/img/landingpage/making.png";
 import Criando from "../../../src/Assets/img/landingpage/creating.png";
 
-import { useLanguage } from "../../context/language";
+import { useLanguage } from "./context/language";
 
 function LandingPage() {
   const { language } = useLanguage();
