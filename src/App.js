@@ -32,11 +32,11 @@ function App() {
           <Route path="/blog/:id" component={SinglePost} />
           <Route path="/Sobre_tea" component={Sobre_tea} />
           <Route path="/jogo" component={GamePage} />
-          <Route path="*" component={NotFound} />
           <AuthProvider>
             <Route path="/admin" exact component={AdminPage} />
             <Route path="/admin/update" component={NewPost} />
           </AuthProvider>
+          <Route path="*" component={NotFound} />
         </Switch>
         <Footer />
       </Router>
